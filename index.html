@@ -132,6 +132,13 @@ footer{background:#2B1714;color:#cdb9ad;text-align:center;padding:30px;font-size
   .sticky{display:block}
 }
 
+
+.offer-photo{padding:28px 0 12px;background:var(--cream);}
+.offer-photo-wrap{position:relative;width:min(100%,1024px);margin:0 auto;border-radius:28px;overflow:hidden;box-shadow:0 18px 50px rgba(59,36,26,.16);line-height:0;}
+.offer-photo-img{display:block;width:100%;height:auto;}
+.offer-photo-hotspot{position:absolute;left:31.2%;top:65.0%;width:65.8%;height:7.7%;border-radius:999px;display:block;z-index:2;}
+.offer-photo-hotspot:focus-visible{outline:3px solid var(--gold2);outline-offset:3px;}
+@media(max-width:800px){.offer-photo{padding:18px 0 8px}.offer-photo-wrap{border-radius:22px}.offer-photo-hotspot{left:31%;top:64.9%;width:66%;height:7.9%;}}
 </style>
 </head>
 <body>
@@ -211,15 +218,11 @@ footer{background:#2B1714;color:#cdb9ad;text-align:center;padding:30px;font-size
 </div>
 </section>
 
-<section class="offer" id="oferta">
+<section class="offer offer-photo" id="oferta">
 <div class="container">
-<div class="offer-box">
-<div class="kicker" style="color:var(--gold2)">UMA EXPERIÊNCIA mYo</div>
-<h2>Aprenda a receita em casa.</h2>
-<p>Tenha acesso à experiência de receitas e técnicas para começar a criar os seus próprios cookies.</p>
-<div class="price"><small>Valor da experiência</small><strong>399 MT</strong></div>
-<a class="cta" href="#" onclick="alert('Substitua este link pelo seu checkout.');return false;">APRENDER RECEITA EM CASA <span>→</span></a>
-<div class="micro">Acesso digital • pagamento único • feito para aprender no seu ritmo</div>
+<div class="offer-photo-wrap">
+<img src="oferta-myo.jpeg" alt="mYo Cookies Experience — Aprenda a receita em casa" class="offer-photo-img">
+<a class="offer-photo-hotspot" href="https://pagar.co.mz/p/myo-cookies-experience-l5acqu" aria-label="Aprender receita em casa"></a>
 </div>
 </div>
 </section>
@@ -228,7 +231,7 @@ footer{background:#2B1714;color:#cdb9ad;text-align:center;padding:30px;font-size
 
 
 
-<div class="sticky"><a class="cta" href="#oferta">APRENDER EM CASA <span>→</span></a></div>
+<div class="sticky"><a class="cta" href="https://pagar.co.mz/p/myo-cookies-experience-l5acqu">APRENDER EM CASA <span>→</span></a></div>
 <div style="height:58px"></div>
 </body>
 </html>
